@@ -1,6 +1,6 @@
 # EcoStep - Personal Carbon Footprint Calculator
 
-![EcoStep Logo](/Users/work_uni/Documents/GitHub/Personal/EcoStep-Mobile-iOS-App/EcoStep1/EcoStep1/Assets.xcassets/AppIcon.appiconset/1024.png)
+![EcoStep Logo](https://github.com/ur0vn1t31/EcoStep-Mobile-iOS-App/blob/main/EcoStep1/EcoStep1/Assets.xcassets/AppIcon.appiconset/1024.png)
 
 ## Author
 - Created by: Fedor Chursin
