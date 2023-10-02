@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+
+target 'EcoStep1' do
+    # Comment the next line if you don't want to use dynamic frameworks
+    use_frameworks!
+    pod 'Firebase/Auth'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Messaging'
+    pod 'Google-Mobile-Ads-SDK'
+    pod 'GoogleSignIn'
+  
+    # Pods for ecostep
+  
+    target 'EcoStep1Tests' do
+      inherit! :search_paths
+      # Pods for testing
+    end
+  
+    target 'EcoStep1UITests' do
+      # Pods for testing
+    end
+  
+  end

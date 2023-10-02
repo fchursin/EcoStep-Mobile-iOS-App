@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3A3D0AF3E5C40D327BD380 /* Pods_EcoStep1_EcoStep1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F99D14EB158B0800D086113 /* Pods_EcoStep1_EcoStep1UITests.framework */; };
+		5CF44B849C8469E5CD464876 /* Pods_EcoStep1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C15ED620F84D2ED43FC15F /* Pods_EcoStep1.framework */; };
+		9AF3C4B1A5A11C2F770E6646 /* Pods_EcoStep1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61502711D77BC2330AD3A1C6 /* Pods_EcoStep1Tests.framework */; };
+		9F004E9427EC89CC0032B46A /* treerksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F004E9327EC89CC0032B46A /* treerksViewController.swift */; };
+		9F0B061B28059A4100A01942 /* chestOpeningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B061A28059A4100A01942 /* chestOpeningVC.swift */; };
+		9F102B8027A2DEA6000A005E /* foodCo2CalcualtionsAndTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F102B7F27A2DEA5000A005E /* foodCo2CalcualtionsAndTips.swift */; };
+		9F18FE0D29116D670039D1CE /* accountSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F18FE0C29116D670039D1CE /* accountSettingsVC.swift */; };
+		9F25FE1F276DFBF200292744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE1E276DFBF200292744 /* AppDelegate.swift */; };
+		9F25FE21276DFBF200292744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE20276DFBF200292744 /* SceneDelegate.swift */; };
+		9F25FE23276DFBF200292744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE22276DFBF200292744 /* ViewController.swift */; };
+		9F25FE26276DFBF200292744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F25FE24276DFBF200292744 /* Main.storyboard */; };
+		9F25FE2B276DFBF300292744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F25FE29276DFBF300292744 /* LaunchScreen.storyboard */; };
+		9F25FE36276DFBF300292744 /* EcoStep1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE35276DFBF300292744 /* EcoStep1Tests.swift */; };
+		9F25FE40276DFBF300292744 /* EcoStep1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE3F276DFBF300292744 /* EcoStep1UITests.swift */; };
+		9F25FE42276DFBF300292744 /* EcoStep1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE41276DFBF300292744 /* EcoStep1UITestsLaunchTests.swift */; };
+		9F25FE4F276DFC0A00292744 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F25FE4E276DFC0A00292744 /* GoogleService-Info.plist */; };
+		9F25FE51276E06E700292744 /* determineDevise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE50276E06E700292744 /* determineDevise.swift */; };
+		9F25FE53276E096400292744 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE52276E096400292744 /* SignUpVC.swift */; };
+		9F25FE55276E0A4D00292744 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE54276E0A4D00292744 /* LogInVC.swift */; };
+		9F25FE57276E31E800292744 /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25FE56276E31E800292744 /* MainScreenVC.swift */; };
+		9F32FCDC279BF0F60090BAA6 /* transportationMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32FCDB279BF0F60090BAA6 /* transportationMapVC.swift */; };
+		9F41FBE927D768C200755C8C /* drinksCo2CalculationsAndTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F41FBE827D768C200755C8C /* drinksCo2CalculationsAndTips.swift */; };
+		9F51AFF82782267A002375FF /* tableViewForMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51AFF72782267A002375FF /* tableViewForMeals.swift */; };
+		9F5594DD27F354CF0073289B /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5594DC27F354CF0073289B /* CollectionTableViewCell.swift */; };
+		9F5594DF27F357550073289B /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5594DE27F357550073289B /* TileCollectionViewCell.swift */; };
+		9F6110592779A1AE002BBF5D /* circleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6110582779A1AE002BBF5D /* circleProgressView.swift */; };
+		9F798966281DB76500B08894 /* tabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F798965281DB76500B08894 /* tabBarVC.swift */; };
+		9F8DD0D127C5146D00610C09 /* tableViewForTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8DD0D027C5146D00610C09 /* tableViewForTransport.swift */; };
+		9F92527A27A7EFA700A135AC /* foodWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F92527927A7EFA700A135AC /* foodWeightViewController.swift */; };
+		9F9A7F2827B970C10003850A /* getTheWholeFootprint .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A7F2727B970C10003850A /* getTheWholeFootprint .swift */; };
+		9F9A7F2A27BBA9330003850A /* tableViewControllerForTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A7F2927BBA9330003850A /* tableViewControllerForTips.swift */; };
+		9F9DC234277AEDBB004A2B45 /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9DC233277AEDBB004A2B45 /* FoodVC.swift */; };
+		9FAC733C277386C200090A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAC733B277386C200090A67 /* Assets.xcassets */; };
+		9FAEDA832A726C4A00B78371 /* fiverrVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEDA822A726C4A00B78371 /* fiverrVC.swift */; };
+		9FB5C37927F0795E00309396 /* treeksGetClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5C37827F0795E00309396 /* treeksGetClass.swift */; };
+		9FC9AA7D28414D9900284D36 /* onBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC9AA7C28414D9900284D36 /* onBoardVC.swift */; };
+		9FD099EA277BC5E70000E0E4 /* addFoodPiecesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD099E9277BC5E70000E0E4 /* addFoodPiecesVC.swift */; };
+		9FD099EC277DECE20000E0E4 /* actionsPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD099EB277DECE20000E0E4 /* actionsPageVC.swift */; };
+		9FD099EE277DED0F0000E0E4 /* foodActionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD099ED277DED0F0000E0E4 /* foodActionsVC.swift */; };
+		9FD099F0277DED360000E0E4 /* drinksActionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD099EF277DED360000E0E4 /* drinksActionVC.swift */; };
+		9FD099F2277DED5A0000E0E4 /* transportationActionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD099F1277DED5A0000E0E4 /* transportationActionVC.swift */; };
+		9FD099F4277DED810000E0E4 /* housingActionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD099F3277DED810000E0E4 /* housingActionVC.swift */; };
+		9FE43839278AD74300CA8B21 /* tableViewForDrinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE43838278AD74300CA8B21 /* tableViewForDrinks.swift */; };
+		9FE4383B278AD7A500CA8B21 /* drinksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE4383A278AD7A500CA8B21 /* drinksVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F25FE32276DFBF300292744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F25FE13276DFBF200292744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F25FE1A276DFBF200292744;
+			remoteInfo = EcoStep1;
+		};
+		9F25FE3C276DFBF300292744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F25FE13276DFBF200292744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F25FE1A276DFBF200292744;
+			remoteInfo = EcoStep1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		137F3E0A0EC4F49DE7B9A8A2 /* Pods-EcoStep1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoStep1Tests.release.xcconfig"; path = "Target Support Files/Pods-EcoStep1Tests/Pods-EcoStep1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1682BAE420C26BE7EC43E5F3 /* Pods-EcoStep1-EcoStep1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoStep1-EcoStep1UITests.release.xcconfig"; path = "Target Support Files/Pods-EcoStep1-EcoStep1UITests/Pods-EcoStep1-EcoStep1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		40015E6A3E7B1C716B26B012 /* Pods-EcoStep1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoStep1.debug.xcconfig"; path = "Target Support Files/Pods-EcoStep1/Pods-EcoStep1.debug.xcconfig"; sourceTree = "<group>"; };
+		468CC8BA8CC189148F05F0A5 /* Pods-EcoStep1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoStep1Tests.debug.xcconfig"; path = "Target Support Files/Pods-EcoStep1Tests/Pods-EcoStep1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		61502711D77BC2330AD3A1C6 /* Pods_EcoStep1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoStep1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F99D14EB158B0800D086113 /* Pods_EcoStep1_EcoStep1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoStep1_EcoStep1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F004E9327EC89CC0032B46A /* treerksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treerksViewController.swift; sourceTree = "<group>"; };
+		9F0B061A28059A4100A01942 /* chestOpeningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chestOpeningVC.swift; sourceTree = "<group>"; };
+		9F102B7F27A2DEA5000A005E /* foodCo2CalcualtionsAndTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCo2CalcualtionsAndTips.swift; sourceTree = "<group>"; };
+		9F18FE0C29116D670039D1CE /* accountSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountSettingsVC.swift; sourceTree = "<group>"; };
+		9F25FE1B276DFBF200292744 /* EcoStep1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoStep1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F25FE1E276DFBF200292744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F25FE20276DFBF200292744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F25FE22276DFBF200292744 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F25FE25276DFBF200292744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F25FE2A276DFBF300292744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F25FE2C276DFBF300292744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F25FE31276DFBF300292744 /* EcoStep1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoStep1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F25FE35276DFBF300292744 /* EcoStep1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoStep1Tests.swift; sourceTree = "<group>"; };
+		9F25FE3B276DFBF300292744 /* EcoStep1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoStep1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F25FE3F276DFBF300292744 /* EcoStep1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoStep1UITests.swift; sourceTree = "<group>"; };
+		9F25FE41276DFBF300292744 /* EcoStep1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoStep1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F25FE4E276DFC0A00292744 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F25FE50276E06E700292744 /* determineDevise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = determineDevise.swift; sourceTree = "<group>"; };
+		9F25FE52276E096400292744 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		9F25FE54276E0A4D00292744 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		9F25FE56276E31E800292744 /* MainScreenVC.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
+		9F32FCDB279BF0F60090BAA6 /* transportationMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transportationMapVC.swift; sourceTree = "<group>"; };
+		9F41FBE827D768C200755C8C /* drinksCo2CalculationsAndTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinksCo2CalculationsAndTips.swift; sourceTree = "<group>"; };
+		9F51AFF72782267A002375FF /* tableViewForMeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewForMeals.swift; sourceTree = "<group>"; };
+		9F5594DC27F354CF0073289B /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		9F5594DE27F357550073289B /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F6110582779A1AE002BBF5D /* circleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleProgressView.swift; sourceTree = "<group>"; };
+		9F798965281DB76500B08894 /* tabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarVC.swift; sourceTree = "<group>"; };
+		9F8DD0D027C5146D00610C09 /* tableViewForTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewForTransport.swift; sourceTree = "<group>"; };
+		9F92527927A7EFA700A135AC /* foodWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodWeightViewController.swift; sourceTree = "<group>"; };
+		9F9A7F2727B970C10003850A /* getTheWholeFootprint .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "getTheWholeFootprint .swift"; sourceTree = "<group>"; };
+		9F9A7F2927BBA9330003850A /* tableViewControllerForTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewControllerForTips.swift; sourceTree = "<group>"; };
+		9F9DC233277AEDBB004A2B45 /* FoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
+		9FAC733B277386C200090A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FAEDA822A726C4A00B78371 /* fiverrVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiverrVC.swift; sourceTree = "<group>"; };
+		9FB5C37827F0795E00309396 /* treeksGetClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treeksGetClass.swift; sourceTree = "<group>"; };
+		9FC9AA7C28414D9900284D36 /* onBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardVC.swift; sourceTree = "<group>"; };
+		9FD099E9277BC5E70000E0E4 /* addFoodPiecesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addFoodPiecesVC.swift; sourceTree = "<group>"; };
+		9FD099EB277DECE20000E0E4 /* actionsPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionsPageVC.swift; sourceTree = "<group>"; };
+		9FD099ED277DED0F0000E0E4 /* foodActionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodActionsVC.swift; sourceTree = "<group>"; };
+		9FD099EF277DED360000E0E4 /* drinksActionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinksActionVC.swift; sourceTree = "<group>"; };
+		9FD099F1277DED5A0000E0E4 /* transportationActionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transportationActionVC.swift; sourceTree = "<group>"; };
+		9FD099F3277DED810000E0E4 /* housingActionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = housingActionVC.swift; sourceTree = "<group>"; };
+		9FE43838278AD74300CA8B21 /* tableViewForDrinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewForDrinks.swift; sourceTree = "<group>"; };
+		9FE4383A278AD7A500CA8B21 /* drinksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinksVC.swift; sourceTree = "<group>"; };
+		B4C15ED620F84D2ED43FC15F /* Pods_EcoStep1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoStep1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66F5756B82B8A6A7D72D845 /* Pods-EcoStep1-EcoStep1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoStep1-EcoStep1UITests.debug.xcconfig"; path = "Target Support Files/Pods-EcoStep1-EcoStep1UITests/Pods-EcoStep1-EcoStep1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D97311C698301D41DEACA8DF /* Pods-EcoStep1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoStep1.release.xcconfig"; path = "Target Support Files/Pods-EcoStep1/Pods-EcoStep1.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F25FE18276DFBF200292744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF44B849C8469E5CD464876 /* Pods_EcoStep1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F25FE2E276DFBF300292744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF3C4B1A5A11C2F770E6646 /* Pods_EcoStep1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F25FE38276DFBF300292744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A3D0AF3E5C40D327BD380 /* Pods_EcoStep1_EcoStep1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47000F3EB81B7A57A59A0D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C15ED620F84D2ED43FC15F /* Pods_EcoStep1.framework */,
+				7F99D14EB158B0800D086113 /* Pods_EcoStep1_EcoStep1UITests.framework */,
+				61502711D77BC2330AD3A1C6 /* Pods_EcoStep1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CDEF4951869F7D81552B9B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40015E6A3E7B1C716B26B012 /* Pods-EcoStep1.debug.xcconfig */,
+				D97311C698301D41DEACA8DF /* Pods-EcoStep1.release.xcconfig */,
+				D66F5756B82B8A6A7D72D845 /* Pods-EcoStep1-EcoStep1UITests.debug.xcconfig */,
+				1682BAE420C26BE7EC43E5F3 /* Pods-EcoStep1-EcoStep1UITests.release.xcconfig */,
+				468CC8BA8CC189148F05F0A5 /* Pods-EcoStep1Tests.debug.xcconfig */,
+				137F3E0A0EC4F49DE7B9A8A2 /* Pods-EcoStep1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F25FE12276DFBF200292744 = {
+			isa = PBXGroup;
+			children = (
+				9F25FE1D276DFBF200292744 /* EcoStep1 */,
+				9F25FE34276DFBF300292744 /* EcoStep1Tests */,
+				9F25FE3E276DFBF300292744 /* EcoStep1UITests */,
+				9F25FE1C276DFBF200292744 /* Products */,
+				7CDEF4951869F7D81552B9B8 /* Pods */,
+				47000F3EB81B7A57A59A0D7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F25FE1C276DFBF200292744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F25FE1B276DFBF200292744 /* EcoStep1.app */,
+				9F25FE31276DFBF300292744 /* EcoStep1Tests.xctest */,
+				9F25FE3B276DFBF300292744 /* EcoStep1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F25FE1D276DFBF200292744 /* EcoStep1 */ = {
+			isa = PBXGroup;
+			children = (
+				9F25FE1E276DFBF200292744 /* AppDelegate.swift */,
+				9F25FE54276E0A4D00292744 /* LogInVC.swift */,
+				9F25FE20276DFBF200292744 /* SceneDelegate.swift */,
+				9F25FE22276DFBF200292744 /* ViewController.swift */,
+				9F25FE24276DFBF200292744 /* Main.storyboard */,
+				9F25FE29276DFBF300292744 /* LaunchScreen.storyboard */,
+				9FAC733B277386C200090A67 /* Assets.xcassets */,
+				9F25FE4E276DFC0A00292744 /* GoogleService-Info.plist */,
+				9F25FE2C276DFBF300292744 /* Info.plist */,
+				9F25FE50276E06E700292744 /* determineDevise.swift */,
+				9F25FE52276E096400292744 /* SignUpVC.swift */,
+				9F41FBE827D768C200755C8C /* drinksCo2CalculationsAndTips.swift */,
+				9F25FE56276E31E800292744 /* MainScreenVC.swift */,
+				9F6110582779A1AE002BBF5D /* circleProgressView.swift */,
+				9F9DC233277AEDBB004A2B45 /* FoodVC.swift */,
+				9FD099E9277BC5E70000E0E4 /* addFoodPiecesVC.swift */,
+				9FD099EB277DECE20000E0E4 /* actionsPageVC.swift */,
+				9FD099ED277DED0F0000E0E4 /* foodActionsVC.swift */,
+				9FD099EF277DED360000E0E4 /* drinksActionVC.swift */,
+				9FD099F1277DED5A0000E0E4 /* transportationActionVC.swift */,
+				9FD099F3277DED810000E0E4 /* housingActionVC.swift */,
+				9F51AFF72782267A002375FF /* tableViewForMeals.swift */,
+				9FE43838278AD74300CA8B21 /* tableViewForDrinks.swift */,
+				9FE4383A278AD7A500CA8B21 /* drinksVC.swift */,
+				9F32FCDB279BF0F60090BAA6 /* transportationMapVC.swift */,
+				9F102B7F27A2DEA5000A005E /* foodCo2CalcualtionsAndTips.swift */,
+				9F92527927A7EFA700A135AC /* foodWeightViewController.swift */,
+				9F9A7F2727B970C10003850A /* getTheWholeFootprint .swift */,
+				9F9A7F2927BBA9330003850A /* tableViewControllerForTips.swift */,
+				9F8DD0D027C5146D00610C09 /* tableViewForTransport.swift */,
+				9F004E9327EC89CC0032B46A /* treerksViewController.swift */,
+				9FB5C37827F0795E00309396 /* treeksGetClass.swift */,
+				9F5594DC27F354CF0073289B /* CollectionTableViewCell.swift */,
+				9F5594DE27F357550073289B /* TileCollectionViewCell.swift */,
+				9F0B061A28059A4100A01942 /* chestOpeningVC.swift */,
+				9F798965281DB76500B08894 /* tabBarVC.swift */,
+				9FC9AA7C28414D9900284D36 /* onBoardVC.swift */,
+				9F18FE0C29116D670039D1CE /* accountSettingsVC.swift */,
+				9FAEDA822A726C4A00B78371 /* fiverrVC.swift */,
+			);
+			path = EcoStep1;
+			sourceTree = "<group>";
+		};
+		9F25FE34276DFBF300292744 /* EcoStep1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F25FE35276DFBF300292744 /* EcoStep1Tests.swift */,
+			);
+			path = EcoStep1Tests;
+			sourceTree = "<group>";
+		};
+		9F25FE3E276DFBF300292744 /* EcoStep1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F25FE3F276DFBF300292744 /* EcoStep1UITests.swift */,
+				9F25FE41276DFBF300292744 /* EcoStep1UITestsLaunchTests.swift */,
+			);
+			path = EcoStep1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F25FE1A276DFBF200292744 /* EcoStep1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F25FE45276DFBF300292744 /* Build configuration list for PBXNativeTarget "EcoStep1" */;
+			buildPhases = (
+				DA09706C4EF2483B5351D87A /* [CP] Check Pods Manifest.lock */,
+				9F25FE17276DFBF200292744 /* Sources */,
+				9F25FE18276DFBF200292744 /* Frameworks */,
+				9F25FE19276DFBF200292744 /* Resources */,
+				4086E09A2DC66033A2713795 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoStep1;
+			productName = EcoStep1;
+			productReference = 9F25FE1B276DFBF200292744 /* EcoStep1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F25FE30276DFBF300292744 /* EcoStep1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F25FE48276DFBF300292744 /* Build configuration list for PBXNativeTarget "EcoStep1Tests" */;
+			buildPhases = (
+				0EF3A2CF6B2647554F68D437 /* [CP] Check Pods Manifest.lock */,
+				9F25FE2D276DFBF300292744 /* Sources */,
+				9F25FE2E276DFBF300292744 /* Frameworks */,
+				9F25FE2F276DFBF300292744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F25FE33276DFBF300292744 /* PBXTargetDependency */,
+			);
+			name = EcoStep1Tests;
+			productName = EcoStep1Tests;
+			productReference = 9F25FE31276DFBF300292744 /* EcoStep1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F25FE3A276DFBF300292744 /* EcoStep1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F25FE4B276DFBF300292744 /* Build configuration list for PBXNativeTarget "EcoStep1UITests" */;
+			buildPhases = (
+				1E60A3C379C72B2120860C21 /* [CP] Check Pods Manifest.lock */,
+				9F25FE37276DFBF300292744 /* Sources */,
+				9F25FE38276DFBF300292744 /* Frameworks */,
+				9F25FE39276DFBF300292744 /* Resources */,
+				AFDEC831B1106DA739AF00BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F25FE3D276DFBF300292744 /* PBXTargetDependency */,
+			);
+			name = EcoStep1UITests;
+			productName = EcoStep1UITests;
+			productReference = 9F25FE3B276DFBF300292744 /* EcoStep1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F25FE13276DFBF200292744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9F25FE1A276DFBF200292744 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					9F25FE30276DFBF300292744 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 9F25FE1A276DFBF200292744;
+					};
+					9F25FE3A276DFBF300292744 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 9F25FE1A276DFBF200292744;
+					};
+				};
+			};
+			buildConfigurationList = 9F25FE16276DFBF200292744 /* Build configuration list for PBXProject "EcoStep" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F25FE12276DFBF200292744;
+			productRefGroup = 9F25FE1C276DFBF200292744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F25FE1A276DFBF200292744 /* EcoStep1 */,
+				9F25FE30276DFBF300292744 /* EcoStep1Tests */,
+				9F25FE3A276DFBF300292744 /* EcoStep1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F25FE19276DFBF200292744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F25FE2B276DFBF300292744 /* LaunchScreen.storyboard in Resources */,
+				9F25FE4F276DFC0A00292744 /* GoogleService-Info.plist in Resources */,
+				9FAC733C277386C200090A67 /* Assets.xcassets in Resources */,
+				9F25FE26276DFBF200292744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F25FE2F276DFBF300292744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F25FE39276DFBF300292744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EF3A2CF6B2647554F68D437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoStep1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E60A3C379C72B2120860C21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoStep1-EcoStep1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4086E09A2DC66033A2713795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoStep1/Pods-EcoStep1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoStep1/Pods-EcoStep1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcoStep1/Pods-EcoStep1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFDEC831B1106DA739AF00BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoStep1-EcoStep1UITests/Pods-EcoStep1-EcoStep1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoStep1-EcoStep1UITests/Pods-EcoStep1-EcoStep1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcoStep1-EcoStep1UITests/Pods-EcoStep1-EcoStep1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA09706C4EF2483B5351D87A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoStep1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F25FE17276DFBF200292744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9A7F2A27BBA9330003850A /* tableViewControllerForTips.swift in Sources */,
+				9F5594DF27F357550073289B /* TileCollectionViewCell.swift in Sources */,
+				9FD099F4277DED810000E0E4 /* housingActionVC.swift in Sources */,
+				9FE4383B278AD7A500CA8B21 /* drinksVC.swift in Sources */,
+				9F5594DD27F354CF0073289B /* CollectionTableViewCell.swift in Sources */,
+				9F41FBE927D768C200755C8C /* drinksCo2CalculationsAndTips.swift in Sources */,
+				9F92527A27A7EFA700A135AC /* foodWeightViewController.swift in Sources */,
+				9F004E9427EC89CC0032B46A /* treerksViewController.swift in Sources */,
+				9FC9AA7D28414D9900284D36 /* onBoardVC.swift in Sources */,
+				9F9A7F2827B970C10003850A /* getTheWholeFootprint .swift in Sources */,
+				9F18FE0D29116D670039D1CE /* accountSettingsVC.swift in Sources */,
+				9F0B061B28059A4100A01942 /* chestOpeningVC.swift in Sources */,
+				9F8DD0D127C5146D00610C09 /* tableViewForTransport.swift in Sources */,
+				9F32FCDC279BF0F60090BAA6 /* transportationMapVC.swift in Sources */,
+				9F25FE57276E31E800292744 /* MainScreenVC.swift in Sources */,
+				9F25FE23276DFBF200292744 /* ViewController.swift in Sources */,
+				9F25FE51276E06E700292744 /* determineDevise.swift in Sources */,
+				9FD099EA277BC5E70000E0E4 /* addFoodPiecesVC.swift in Sources */,
+				9F25FE55276E0A4D00292744 /* LogInVC.swift in Sources */,
+				9F102B8027A2DEA6000A005E /* foodCo2CalcualtionsAndTips.swift in Sources */,
+				9FD099EC277DECE20000E0E4 /* actionsPageVC.swift in Sources */,
+				9F25FE1F276DFBF200292744 /* AppDelegate.swift in Sources */,
+				9F9DC234277AEDBB004A2B45 /* FoodVC.swift in Sources */,
+				9FD099F2277DED5A0000E0E4 /* transportationActionVC.swift in Sources */,
+				9FD099EE277DED0F0000E0E4 /* foodActionsVC.swift in Sources */,
+				9F51AFF82782267A002375FF /* tableViewForMeals.swift in Sources */,
+				9FAEDA832A726C4A00B78371 /* fiverrVC.swift in Sources */,
+				9F798966281DB76500B08894 /* tabBarVC.swift in Sources */,
+				9F6110592779A1AE002BBF5D /* circleProgressView.swift in Sources */,
+				9FE43839278AD74300CA8B21 /* tableViewForDrinks.swift in Sources */,
+				9FD099F0277DED360000E0E4 /* drinksActionVC.swift in Sources */,
+				9F25FE53276E096400292744 /* SignUpVC.swift in Sources */,
+				9F25FE21276DFBF200292744 /* SceneDelegate.swift in Sources */,
+				9FB5C37927F0795E00309396 /* treeksGetClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F25FE2D276DFBF300292744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F25FE36276DFBF300292744 /* EcoStep1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F25FE37276DFBF300292744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F25FE42276DFBF300292744 /* EcoStep1UITestsLaunchTests.swift in Sources */,
+				9F25FE40276DFBF300292744 /* EcoStep1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F25FE33276DFBF300292744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F25FE1A276DFBF200292744 /* EcoStep1 */;
+			targetProxy = 9F25FE32276DFBF300292744 /* PBXContainerItemProxy */;
+		};
+		9F25FE3D276DFBF300292744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F25FE1A276DFBF200292744 /* EcoStep1 */;
+			targetProxy = 9F25FE3C276DFBF300292744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F25FE24276DFBF200292744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F25FE25276DFBF200292744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F25FE29276DFBF300292744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F25FE2A276DFBF300292744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F25FE43276DFBF300292744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F25FE44276DFBF300292744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F25FE46276DFBF300292744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40015E6A3E7B1C716B26B012 /* Pods-EcoStep1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EcoStep1/EcoStep1.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KPJA5G657;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoStep1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EcoStep;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your precise location is used to calculate turn-by-turn directions, show your location on the map, and help improve the map.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecology.ecostep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F25FE47276DFBF300292744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D97311C698301D41DEACA8DF /* Pods-EcoStep1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EcoStep1/EcoStep1.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KPJA5G657;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoStep1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EcoStep;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your precise location is used to calculate turn-by-turn directions, show your location on the map, and help improve the map.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecology.ecostep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F25FE49276DFBF300292744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468CC8BA8CC189148F05F0A5 /* Pods-EcoStep1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KPJA5G657;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecostep.ecostepapp11.EcoStep1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoStep1.app/EcoStep1";
+			};
+			name = Debug;
+		};
+		9F25FE4A276DFBF300292744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137F3E0A0EC4F49DE7B9A8A2 /* Pods-EcoStep1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KPJA5G657;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecostep.ecostepapp11.EcoStep1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoStep1.app/EcoStep1";
+			};
+			name = Release;
+		};
+		9F25FE4C276DFBF300292744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66F5756B82B8A6A7D72D845 /* Pods-EcoStep1-EcoStep1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KPJA5G657;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecostep.ecostepapp11.EcoStep1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoStep1;
+			};
+			name = Debug;
+		};
+		9F25FE4D276DFBF300292744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1682BAE420C26BE7EC43E5F3 /* Pods-EcoStep1-EcoStep1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KPJA5G657;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecostep.ecostepapp11.EcoStep1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoStep1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F25FE16276DFBF200292744 /* Build configuration list for PBXProject "EcoStep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F25FE43276DFBF300292744 /* Debug */,
+				9F25FE44276DFBF300292744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F25FE45276DFBF300292744 /* Build configuration list for PBXNativeTarget "EcoStep1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F25FE46276DFBF300292744 /* Debug */,
+				9F25FE47276DFBF300292744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F25FE48276DFBF300292744 /* Build configuration list for PBXNativeTarget "EcoStep1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F25FE49276DFBF300292744 /* Debug */,
+				9F25FE4A276DFBF300292744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F25FE4B276DFBF300292744 /* Build configuration list for PBXNativeTarget "EcoStep1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F25FE4C276DFBF300292744 /* Debug */,
+				9F25FE4D276DFBF300292744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F25FE13276DFBF200292744 /* Project object */;
+}

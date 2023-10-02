@@ -1,0 +1,6 @@
+framework module Pods_EcoStep1_EcoStep1UITests {
+  umbrella header "Pods-EcoStep1-EcoStep1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
