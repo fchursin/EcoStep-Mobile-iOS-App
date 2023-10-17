@@ -5,7 +5,7 @@
 ## Author
 - Created by: Fedor Chursin
 - Contact: fedorchursinsk@gmail.com
-- GitHub: ur0vn1t31
+- GitHub: fchursin
 - [App Store Link](https://apps.apple.com/us/app/ecostep-reduce-your-footprint/id6444031274)
 
 ## Overview
